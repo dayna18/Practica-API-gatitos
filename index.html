@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica API Fetch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body class="bg-light text-center">
+
+  <div class="container my-5">
+    <h1 class="display-4 text-primary mb-4">¡Adopta un Gatito Virtual!</h1>
+    <button class="btn btn-primary mb-4" onclick="fetchNewCat()">Generar un Gatito Nuevo</button>
+    
+    <h2 class="text-secondary mb-4">Gatitos Disponibles</h2>
+    <div id="cat-container" class="row justify-content-center"></div>
+
+    <h2 class="text-success mt-5">Gatitos Adoptados</h2>
+    <div id="adopted-cats-container" class="row justify-content-center"></div>
+  </div>
+    <div id="cat-container" class="row justify-content-center"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
